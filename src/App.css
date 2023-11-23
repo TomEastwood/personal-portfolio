@@ -22,14 +22,20 @@ body {
 .waves-1 > img {
   width: 140%;
   height: 30%;
+
 }
 
 .about-bg {
-  background-image: linear-gradient(to bottom, #0000002f, #000000),
+  z-index: 1;
+  background-image: linear-gradient(to bottom, #8d8f9f, #00000000),
   url(https://images.wallpaperscraft.com/image/single/forest_trees_fog_110131_1920x1080.jpg);
   background-size: cover;
 }
 
 .projects-bg {
   background-color: black;
+}
+
+.skills {
+  z-index: 1;
 }
