@@ -1,0 +1,56 @@
+.content {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    margin: 40px;
+}
+
+.skill-logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.details {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    margin: 40px;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.details .title {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    margin-left: auto;
+}
+
+.details .icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+}
+
+.details .text {
+    font-size: 1.2rem;
+    color: rgb(236, 236, 236);
+    margin: 40px;
+    width: 50%;
+    margin-left: 420px;
+}

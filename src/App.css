@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(31, 31, 31);
+}
+
+.header {
+  background-image: url(https://www.teahub.io/photos/full/185-1854442_nature.jpg);
+  background-size: cover;
+}
+
+.text {
+  color: white;
+  margin: 1rem;
+}
+
+.waves-1 > img {
+  width: 140%;
+  height: 30%;
+}
+
+.about-bg {
+  background-image: linear-gradient(to bottom, #0000002f, #000000),
+  url(https://images.wallpaperscraft.com/image/single/forest_trees_fog_110131_1920x1080.jpg);
+  background-size: cover;
+}
+
+.projects-bg {
+  background-color: black;
+}
