@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: rgb(31, 31, 31);
+  background-color: #8d8f9f;
 }
 
 .header {
@@ -22,7 +22,16 @@ body {
 .waves-1 > img {
   width: 140%;
   height: 30%;
+}
 
+.waves-2 {
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+.waves-2 > img {
+  width: 100%;
+  height: 20%;
 }
 
 .about-bg {
@@ -32,10 +41,6 @@ body {
   background-size: cover;
 }
 
-.projects-bg {
-  background-color: black;
-}
-
 .skills {
-  z-index: 1;
+  z-index: 2;
 }
